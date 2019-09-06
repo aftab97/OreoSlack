@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+
+* {box-sizing: border-box};
+
+.navbarcontainer {
+    
+    overflow: hidden;  
+    height: 100%;
+    align-items: center;
+ }
+
+.navbarbox {
+    
+    height: 100%;
+    width: 15%;
+    position: absolute;
+    background: #3f0f40; 
+    color: white;
+}   
+
+#title {
+    margin-left: 1vw;
+    font-family: 'Lato', sans-serif;
+    font-size: 4vh;
+    font-weight: bolder;
+}
+
+.move {
+    margin-left: 1vw;
+}
+
+#username {
+    
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5vh;
+}
+
+h2 {
+
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    font-size: 3vh;
+}
+
+h3 {
+    
+    font-family: 'Lato', sans-serif;
+    font-size: 2.2vh;
+    font-weight: lighter;
+}
+
+.addchannel {
+   
+    padding-top: 2vh;
+    font-family: 'Lato', sans-serif;
+    font-size: 2.2vh;
+    font-weight: lighter;
+}
+
+.draftscontainer {
+    margin-left: 1vw;
+    padding-top: 5vh;
+    margin-bottom: 0;
+}
+
+.channelscontainer {
+    margin-left: 1vw;
+    padding-top: 5vh;
+}
+
+
+.directMessages {
+    margin-left: 1vw;
+    padding-top: 5vh;
+   
+
+}
+
+.directMessages li {
+    list-style-type: none;
+    
+   
+} 
+
+.directMessages i {
+    padding: 1vh;
+   align-content: space-between;
+
+    
+} 
+
+
+.appscontainer {
+    margin-left: 1vw;
+    padding-top: 5vh;
+}
+
+.contactAvailable {
+    display: flex;
+    align-items: center;
+}

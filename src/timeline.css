@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+.timelinecontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.timelinebox {
+    height: 90vh;
+    width: 85%;
+    background:blue; 
+}
+
+
