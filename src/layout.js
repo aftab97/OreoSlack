@@ -7,6 +7,26 @@ import './layout.css'
 
 
 export default class Layout extends Component {
+    state = {
+        username: this.props.username,
+        value: "",
+        thread: []
+      }
+    onChangeValue = event => {
+      this.setState({value: event.target.value})
+    }
+    addItem = (event) => {
+      if(event.key === "Enter") {
+        this.setState(state => {
+          let thread = state.thread.concat(state.value);
+          return {
+            thread,
+            value: ""
+          }
+        })
+      }
+    }
+
     render() {
         return (
             <div>

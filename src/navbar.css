@@ -3,9 +3,6 @@
 
 * {box-sizing: border-box};
 
-
-
-
 .navbarcontainer {
     
     overflow: hidden;  
@@ -29,28 +26,28 @@
     font-weight: bolder;
 }
 
-#username {
+.move {
     margin-left: 1vw;
+}
+
+#username {
     font-family: 'Lato', sans-serif;
     font-size: 2.5vh;
 }
 
 h2 {
-    margin-left: 1vw;
     font-family: 'Lato', sans-serif;
     font-weight: bolder;
     font-size: 3vh;
 }
 
 h3 {
-    margin-left: 1vw;
     font-family: 'Lato', sans-serif;
     font-size: 2.2vh;
     font-weight: lighter;
 }
 
-h4 {
-    margin-left: 1vw;
+.addchannel {
     padding-top: 2vh;
     font-family: 'Lato', sans-serif;
     font-size: 2.2vh;
@@ -80,12 +77,17 @@ h4 {
 
 .directMessages i {
     padding: 1vh;
-    align-content: space-around;
+   align-content: space-between;
 } 
 
 
 .appscontainer {
     margin-left: 1vw;
     padding-top: 5vh;
+}
+
+.contactAvailable {
+    display: flex;
+    align-items: center;
 }
 
