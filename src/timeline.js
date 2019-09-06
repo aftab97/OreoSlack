@@ -23,6 +23,7 @@ export default class Timeline extends Component {
        {!this.state.username ?
          <Login setUsername={this.setUsername}/> : <MessagingPanel username={this.state.username}/>
        }
+
             </div>
         )
     }

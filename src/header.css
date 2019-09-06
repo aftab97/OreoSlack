@@ -1,4 +1,5 @@
- @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 .headercontainer {
     width: 100%;
@@ -51,6 +52,7 @@
        color: white;
        background-color: #E11f5A;
    } 
+
 
 
 
